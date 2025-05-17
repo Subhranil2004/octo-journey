@@ -1,0 +1,7 @@
+.vscode/
+node_modules
+notes/
+**/*todo.md 
+# **/ — match any directory depth (including subdirectories)
+# */ - match any directory depth (excluding subdirectories)
+**/*todo.txt
