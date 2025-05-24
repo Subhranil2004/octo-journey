@@ -13,9 +13,9 @@
     <title>Layouts</title>
   </head>
 
-  <body class="bg-dark">
+  <body class="bg-danger">
     <header id="page-hero" class="site-header d-flex flex-column align-content-between">
-      <nav class="site-nav family-sans navbar navbar-expand-md bg-dark navbar-dark">
+      <nav class="site-nav family-sans navbar navbar-expand-md bg-danger navbar-dark">
         <div class="container-fluid">
           <button
             type="button"
@@ -52,50 +52,95 @@
         </p>
       </header>
 
-      <section class="container family-sans text-uppercase text-center py-4">
-        <div class="row justify-content-center py-2">
-          <section class="mb-5 col-10 col-md-6 col-lg-4 col-xl-3">
-            <img class="img-fluid rounded" src="https://dummyimage.com/800x400/6/f.png&text=A" alt="sample image" />
-            <h5 class="mt-1">Text Heading</h5>
-          </section>
-
-          <section class="text-center mb-5 col-10 col-md-6 col-lg-4 col-xl-3">
-            <img class="img-fluid rounded" src="https://dummyimage.com/800x400/6/f.png&text=B" alt="sample image" />
-            <h5 class="mt-1">Text Heading</h5>
-          </section>
-
-          <section class="text-center mb-5 col-10 col-md-6 col-lg-4 col-xl-3">
-            <img class="img-fluid rounded" src="https://dummyimage.com/800x400/6/f.png&text=C" alt="sample image" />
-            <h5 class="mt-1">Text Heading</h5>
-          </section>
-
-          <section class="text-center mb-5 col-10 col-md-6 col-lg-4 col-xl-3">
-            <img class="img-fluid rounded" src="https://dummyimage.com/800x400/6/f.png&text=D" alt="sample image" />
-            <h5 class="mt-1">Text Heading</h5>
-          </section>
-
-          <section class="text-center mb-5 col-10 col-md-6 col-lg-4 col-xl-3">
-            <img class="img-fluid rounded" src="https://dummyimage.com/800x400/6/f.png&text=E" alt="sample image" />
-            <h5 class="mt-1">Text Heading</h5>
-          </section>
-
-          <section class="text-center mb-5 col-10 col-md-6 col-lg-4 col-xl-3">
-            <img class="img-fluid rounded" src="https://dummyimage.com/800x400/6/f.png&text=F" alt="sample image" />
-            <h5 class="mt-1">Text Heading</h5>
-          </section>
-
-          <section class="text-center mb-5 col-10 col-md-6 col-lg-4 col-xl-3">
-            <img class="img-fluid rounded" src="https://dummyimage.com/800x400/6/f.png&text=G" alt="sample image" />
-            <h5 class="mt-1">Text Heading</h5>
-          </section>
-
-          <section class="text-center mb-5 col-10 col-md-6 col-lg-4 col-xl-3">
-            <img class="img-fluid rounded" src="https://dummyimage.com/800x400/6/f.png&text=H" alt="sample image" />
-            <h5 class="mt-1">Text Heading</h5>
-          </section>
+      <main class="bg-light py-5">
+        <div class="container">
+          <h2 class="display-4 text-center text-primary mb-4">Multi-column</h2>
+          <p class="lead text-center mb-5">
+            This layout uses responsive Bootstrap columns. The number of columns adapts to your screen size, and the cards are beautifully centered.
+          </p>
+          <div class="row justify-content-center">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4" style="min-width:260px;">
+              <div class="card shadow h-100 border-0">
+                <img class="card-img-top rounded-top" src="https://dummyimage.com/800x400/6/f.png&text=A" alt="sample image" />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Text Heading</h5>
+                  <p class="card-text text-muted">Short description for A.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4" style="min-width:260px;">
+              <div class="card shadow h-100 border-0">
+                <img class="card-img-top rounded-top" src="https://dummyimage.com/800x400/6/f.png&text=B" alt="sample image" />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Text Heading</h5>
+                  <p class="card-text text-muted">Short description for B.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4" style="min-width:260px;">
+              <div class="card shadow h-100 border-0">
+                <img class="card-img-top rounded-top" src="https://dummyimage.com/800x400/6/f.png&text=C" alt="sample image" />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Text Heading</h5>
+                  <p class="card-text text-muted">Short description for C.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4" style="min-width:260px;">
+              <div class="card shadow h-100 border-0">
+                <img class="card-img-top rounded-top" src="https://dummyimage.com/800x400/6/f.png&text=D" alt="sample image" />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Text Heading</h5>
+                  <p class="card-text text-muted">Short description for D.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4" style="min-width:260px;">
+              <div class="card shadow h-100 border-0">
+                <img class="card-img-top rounded-top" src="https://dummyimage.com/800x400/6/f.png&text=E" alt="sample image" />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Text Heading</h5>
+                  <p class="card-text text-muted">Short description for E.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4" style="min-width:260px;">
+              <div class="card shadow h-100 border-0">
+                <img class="card-img-top rounded-top" src="https://dummyimage.com/800x400/6/f.png&text=F" alt="sample image" />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Text Heading</h5>
+                  <p class="card-text text-muted">Short description for F.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4" style="min-width:260px;">
+              <div class="card shadow h-100 border-0">
+                <img class="card-img-top rounded-top" src="https://dummyimage.com/800x400/6/f.png&text=G" alt="sample image" />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Text Heading</h5>
+                  <p class="card-text text-muted">Short description for G.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4" style="min-width:260px;">
+              <div class="card shadow h-100 border-0">
+                <img class="card-img-top rounded-top" src="https://dummyimage.com/800x400/6/f.png&text=H" alt="sample image" />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Text Heading</h5>
+                  <p class="card-text text-muted">Short description for H.</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </section>
+      </main>
     </article>
+
+    <footer class="bg-danger text-white text-center py-4 mt-auto shadow-lg" style="border-radius: 0 0 10px 10px;">
+      <div class="container">
+        <small>&copy; 2025 Your Site Name. All rights reserved.</small>
+      </div>
+    </footer>
 
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"

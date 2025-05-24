@@ -13,9 +13,9 @@
     <title>Layouts</title>
   </head>
 
-  <body class="bg-dark">
+  <body class="bg-info">
     <header id="page-hero" class="site-header d-flex flex-column align-content-between">
-      <nav class="site-nav family-sans navbar navbar-expand-md bg-dark navbar-dark">
+      <nav class="site-nav family-sans navbar navbar-expand-md bg-info navbar-dark">
         <div class="container-fluid">
           <button
             type="button"
@@ -48,45 +48,57 @@
         </p>
       </header>
 
-      <section class="container my-5">
-        <div class="row justify-content-md-center">
-          <div class="animated-group col-lg-8">
-            <section class="media mb-4">
-              <img class="align-self-center mr-3 img-fluid rounded" src="https://dummyimage.com/120/6/f.png&text=A" alt="Photo Sample" />
-              <div class="media-body">
-                <h4 class="">Media One</h4>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum at voluptatibus incidunt, quia sapiente sequi quis quae atque quas id
-                  quam ab nobis iste eius, accusamus et officia laudantium! Ducimus.
-                </p>
+    <main class="bg-light py-5">
+      <div class="container">
+        <h2 class="display-4 text-center text-info mb-4">Media Gallery</h2>
+        <p class="lead text-center mb-5">
+          A modern two-column pattern that shows an image next to text. Each media item is inside a card for a clean, aesthetic look.
+        </p>
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="card mb-4 shadow border-0">
+              <div class="row no-gutters align-items-center">
+                <div class="col-md-4 text-center p-3">
+                  <img class="img-fluid rounded" src="https://dummyimage.com/120/6/f.png&text=A" alt="Photo Sample" />
+                </div>
+                <div class="col-md-8 p-3">
+                  <h4 class="card-title">Media One</h4>
+                  <p class="card-text text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum at voluptatibus incidunt, quia sapiente sequi quis quae atque quas id quam ab nobis iste eius, accusamus et officia laudantium! Ducimus.</p>
+                </div>
               </div>
-            </section>
-
-            <section class="media mb-4">
-              <img class="align-self-center mr-3 img-fluid rounded" src="https://dummyimage.com/120/6/f.png&text=B" alt="Photo Sample" />
-              <div class="media-body">
-                <h4 class="">Media Two</h4>
-                <p>
-                  Possimus beatae magnam illum necessitatibus laudantium illo aspernatur ducimus eveniet? Voluptas labore similique aut quam quibusdam
-                  eius voluptatum dolores quas molestiae suscipit numquam veniam, nemo totam incidunt ullam pariatur perspiciatis.
-                </p>
+            </div>
+            <div class="card mb-4 shadow border-0">
+              <div class="row no-gutters align-items-center">
+                <div class="col-md-4 text-center p-3">
+                  <img class="img-fluid rounded" src="https://dummyimage.com/120/6/f.png&text=B" alt="Photo Sample" />
+                </div>
+                <div class="col-md-8 p-3">
+                  <h4 class="card-title">Media Two</h4>
+                  <p class="card-text text-muted">Possimus beatae magnam illum necessitatibus laudantium illo aspernatur ducimus eveniet? Voluptas labore similique aut quam quibusdam eius voluptatum dolores quas molestiae suscipit numquam veniam, nemo totam incidunt ullam pariatur perspiciatis.</p>
+                </div>
               </div>
-            </section>
-
-            <section class="media mb-4">
-              <img class="align-self-center mr-3 img-fluid rounded" src="https://dummyimage.com/120/6/f.png&text=C" alt="Photo Sample" />
-              <div class="media-body">
-                <h4 class="">Media Three</h4>
-                <p>
-                  Quis at impedit repellat ipsam ad reiciendis beatae odio explicabo amet fuga nostrum animi nisi unde ab sint, sequi est officia.
-                  Maiores, fuga aliquid pariatur dignissimos eum vitae ex suscipit.
-                </p>
+            </div>
+            <div class="card mb-4 shadow border-0">
+              <div class="row no-gutters align-items-center">
+                <div class="col-md-4 text-center p-3">
+                  <img class="img-fluid rounded" src="https://dummyimage.com/120/6/f.png&text=C" alt="Photo Sample" />
+                </div>
+                <div class="col-md-8 p-3">
+                  <h4 class="card-title">Media Three</h4>
+                  <p class="card-text text-muted">Quis at impedit repellat ipsam ad reiciendis beatae odio explicabo amet fuga nostrum animi nisi unde ab sint, sequi est officia. Maiores, fuga aliquid pariatur dignissimos eum vitae ex suscipit.</p>
+                </div>
               </div>
-            </section>
+            </div>
           </div>
         </div>
-      </section>
-    </article>
+      </div>
+    </main>
+
+    <footer class="bg-info text-white text-center py-4 mt-auto shadow-lg" style="border-radius: 0 0 10px 10px;">
+      <div class="container">
+        <small>&copy; 2025 Your Site Name. All rights reserved.</small>
+      </div>
+    </footer>
 
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
