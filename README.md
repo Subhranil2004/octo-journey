@@ -8,3 +8,6 @@ To launch the website, clone this repo, then go with any of the points:
 - Double-click: Double-click the HTML file, and it should open in your default web browser. 
 - Right-click and Open with: Right-click the file, choose `Open with`, and select your preferred browser. 
 - Code Editor Plugins: If using a code editor like Visual Studio Code, install a plugin like `Live Server` and use the `Open with Live Server` option to launch the file in a browser with automatic updates. 
+
+> [!NOTE]
+> Check important Git commands [here](notes/Commands.md)
